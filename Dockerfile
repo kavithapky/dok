@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY target/simple.jar simdoc.jar
-CMD [ "java","-jar","simdoc.jar" ]
+COPY target\\simple.jar simple.jar
+CMD [ "java","-jar","simple.jar" ]
